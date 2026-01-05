@@ -168,12 +168,13 @@ const Hero = ({ isDark, scrollToSection }) => {
               </button>
             </div>
           </div>
-          <div className="relative">
-            <div className={`w-full h-96 rounded-2xl overflow-hidden ${
-              isDark ? 'bg-gradient-to-br from-blue-900 to-purple-900' : 'bg-gradient-to-br from-blue-100 to-purple-100'
-            } flex items-center justify-center`}>
-              <div className="text-9xl">💻</div>
-            </div>
+          <div className="relative flex items-center justify-center h-96">
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl blur-3xl opacity-20"></div>
+            <img 
+                src="/profile photo.png" 
+                alt="Utkrist Gupta - Software Engineer"
+                className="relative h-full w-auto object-contain drop-shadow-2xl"
+            />
           </div>
         </div>
       </div>
