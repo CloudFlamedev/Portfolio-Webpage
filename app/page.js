@@ -141,12 +141,13 @@ const Hero = ({ isDark, scrollToSection }) => {
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
               Hi, I'm <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-                John Developer
+                Utkrist Gupta
               </span>
             </h1>
             <p className={`text-xl ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-              Full-Stack Developer specializing in React, Next.js, and modern web technologies. 
-              Building scalable applications with clean code and exceptional user experiences.
+              Software Engineer specializing in Java, Spring Boot, Microservices, and Cloud Technologies (AWS). 
+              Passionate about building scalable applications and exploring Generative AI. 
+              
             </p>
             <div className="flex flex-wrap gap-4">
               <button 
@@ -191,13 +192,14 @@ const About = ({ isDark }) => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className={`space-y-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
             <p className="text-lg">
-              I'm a passionate full-stack developer with over 5 years of experience building modern web applications. 
-              I specialize in creating performant, accessible, and user-friendly digital experiences.
+                I'm a Software Engineer bridging the gap between Cloud Architecture and Generative AI. 
+                I build robust, scalable applications on AWS, focusing on performance, security, and next-gen innovation.
             </p>
             <p className="text-lg">
-              My expertise spans across frontend technologies like React, Next.js, and TypeScript, as well as 
-              backend development with Node.js, Express, and various databases. I'm committed to writing clean, 
-              maintainable code and following best practices.
+                My expertise lies in backend engineering using Java, Spring Boot, and Microservices, 
+                coupled with cloud-native development on AWS. I also work with Python and Generative AI 
+                to build intelligent, scalable systems, always committed to writing clean, maintainable 
+                code and following industry best practices.
             </p>
             <p className="text-lg">
               When I'm not coding, you'll find me contributing to open-source projects, writing technical articles, 
@@ -497,15 +499,15 @@ const Contact = ({ isDark }) => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Mail className="text-blue-500" />
-                <span>john@developer.com</span>
+                <span>utkristg@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Github className="text-blue-500" />
-                <span>github.com/johndeveloper</span>
+                <span>https://github.com/CloudFlamedev</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Linkedin className="text-blue-500" />
-                <span>linkedin.com/in/johndeveloper</span>
+                <span>https://www.linkedin.com/in/utkrist-gupta-291518218</span>
               </div>
             </div>
           </div>
